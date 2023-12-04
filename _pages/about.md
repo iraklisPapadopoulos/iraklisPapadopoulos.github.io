@@ -11,7 +11,7 @@ profile:
   more_info: >
     <p>Bât. B23 Biostatistique</p>
     <p>Quartier Hôpital avenue de l'Hôpital 3</p>
-    <p>4000 Liège 1, Belgique</p>
+    <p>4000 Liège 1, Belgique </p>
 
 
 
