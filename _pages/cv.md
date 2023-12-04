@@ -5,7 +5,7 @@ title: cv
 nav: true
 nav_order: 4
 cv_pdf: cv.pdf
-description: Click on the PDF icon for a detailed cv document.
+description: Click on the PDF icon for a detailed cv version.
 toc:
   sidebar: left
 ---
