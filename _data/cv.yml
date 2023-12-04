@@ -2,11 +2,11 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Iraklis Papadopoulos
     - name: Date of Birth
-      value: 14th March 1879
+      value: 22th November 1992
     - name: Languages
-      value: English, German
+      value: Greek (mother tongue), English (fluent), German (basic)
 
 - title: Education
   type: time_table
