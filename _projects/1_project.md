@@ -1,16 +1,14 @@
 ---
 layout: page
-title: project 1
+title: SURSSURV study
 description: a project with a background image
-img: assets/img/12.jpg
+img: assets/img/sarssurv.jpg
 importance: 1
 category: work
-related_publications: einstein1956investigations, einstein1950meaning
+related_publications: 
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+SARSSURV is a unique opportunity to obtain reliable epidemiological data related to the spread of SARS-CoV-2 (and its variants) in a university cohort and to better understand immunity against COVID-19 infection in a young population composed of student participants, as well as in adult staff members. In addition, the evolution in COVID-19 vaccination hesitancies may help to mobilise ULiège members as citizen health partners to develop skills and take informed decisions about COVID-19 vaccine. In reaching these endpoints, the protocol presented and the results to be obtained would be valuable to advance current understanding of the COVID-19 pandemic dynamics, research in the field of epidemiology and enable more effective public health interventions and protection.
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
@@ -18,7 +16,7 @@ To give your project a background in the portfolio page, just add the img tag to
     layout: page
     title: project
     description: a project with a background image
-    img: /assets/img/12.jpg
+    img: /assets/img/sarssurv.jpg
     ---
 
 <div class="row">
