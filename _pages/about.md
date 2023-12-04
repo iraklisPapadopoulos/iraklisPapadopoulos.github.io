@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Biostatistician</a>. Biostatistics and Research Method Center - Public Health Department, Liège University, 4000 Liège, Belgium
+subtitle: <a href='#'>Biostatistician</a>. Biostatistics and Research Method Center - Public Health Department, Liège University, Belgium
 
 profile:
   align: right
