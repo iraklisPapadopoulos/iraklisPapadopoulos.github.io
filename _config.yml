@@ -69,14 +69,14 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 github_username: https://github.com/iraklisPapadopoulos
 gitlab_username: # your GitLab user name
-x_username: # your X handle
+x_username: https://twitter.com/herculePapa
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-linkedin_username: https://www.linkedin.com/in/iraklis-papadopoulos-3a282a14b/
+linkedin_username: # https://www.linkedin.com/in/iraklis-papadopoulos-3a282a14b/
 telegram_username: # your Telegram user name
 scholar_userid: https://scholar.google.com/citations?user=DtLlKW4AAAAJ&hl=el
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-orcid_id: https://orcid.org/my-orcid?orcid=0000-0001-7180-1823
+orcid_id: # https://orcid.org/my-orcid?orcid=0000-0001-7180-1823
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
@@ -97,14 +97,14 @@ spotify_id: # your spotify id
 pinterest_id: # your pinterest id
 unsplash_id: # your unsplash id
 instagram_id: # your instagram id
-facebook_id: https://www.facebook.com/ira1992/
+facebook_id: # https://www.facebook.com/ira1992/
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: # your discord id (18-digit unique numerical identifier)
 zotero_username: # your zotero username
 wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  The best way you can reach me out is through email.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
