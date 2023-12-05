@@ -23,4 +23,5 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi there! I'm Iraklis
+Hi there! I'm Iraklis. 
+I'm a Biostatistician currently working as research assistant and consultant in B-STAT, the Biostatistics and Research Methods Center of ULiège and CHU of Liège.
