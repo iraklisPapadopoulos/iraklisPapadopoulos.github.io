@@ -1,12 +1,18 @@
 ---
 layout: page
 title: SURSSURV study
-description: ULiege SARS-CoV-2 coohort study
+description: ULiege SARS-CoV-2 cohort study
 img: assets/img/sarssurv.jpg
 importance: 1
 category: work
 related_publications: 
 ---
+    ---
+    layout: page
+    title: SURSSURV study
+    description: ULiege SARS-CoV-2 cohort study
+    img: /assets/img/sarssurv.jpg
+    ---
 
 SARSSURV protocole can be found [here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8795924/)
 
@@ -21,10 +27,4 @@ Ethics and dissemination
 The study has received the approval from the University Hospital of Liège Ethics Committee (reference number 2021/96, dated 26 March 2021). Potential protocol amendments will be presented to the Research Ethics Committee. The findings of the present study will be presented at scientific conferences and the results published in peer-review publications. Weekly reports will be submitted to the risk assessment group and the risk management group against COVID-19 of the university to enable a timely public health action if necessary.
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/sarssurv.jpg
-    ---
 
