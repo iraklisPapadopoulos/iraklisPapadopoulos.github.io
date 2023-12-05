@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /Presentations/
+permalink: /teaching/
 title: Presentations
 description: Materials from presentations.
 nav: true

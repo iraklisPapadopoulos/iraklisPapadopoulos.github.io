@@ -24,4 +24,4 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 Hi there! I'm Iraklis. 
-I'm a Biostatistician currently working as research assistant and consultant in B-STAT, the Biostatistics and Research Methods Center of ULiège and CHU of Liège.
+I'm a Biostatistician currently working as research assistant and consultant in B-STAT, the Biostatistics and Research Methods Center of ULiège Public Health Department and CHU of Liège.
