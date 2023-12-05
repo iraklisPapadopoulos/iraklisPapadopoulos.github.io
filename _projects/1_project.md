@@ -7,12 +7,10 @@ importance: 1
 category: work
 related_publications: 
 ---
-    ---
-    layout: page
-    title: SURSSURV study
-    description: ULiege SARS-CoV-2 cohort study
-    img: /assets/img/sarssurv.jpg
-    ---
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/sarssurv.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
 
 SARSSURV protocole can be found [here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8795924/)
 
