@@ -147,7 +147,7 @@ p=p +
 
 A compelling method for visualizing multiple variables concurrently in a plot while minimizing noise is the radar plot. This type of plot effectively communicates both the absolute values and the temporal changes to the reader. It provides a clear representation of the magnitude of true values and their fluctuations over time.
 
- Sample code for the radar plot bellow:
+Sample code for the radar plot bellow:
 ```R
 ggradar(data,
         grid.max = 75,
@@ -200,6 +200,10 @@ ggradar(data,
 
 ## Spaghetti Plot
 
+A lot of times, in the process of longitudinal data modeling, linear mixed models (LME) are applied. Linear mixed models make use of random effects. A first visual idea before moving to a modeling technique is to create a spaghetti plot and graphically check the differences in baseline measurements and the individual temporal trends.
+
+Sample code for a spaghetti plot bellow:
+
 ```R
 xyplot(IgG ~ boost$time , data = data, groups = IdParticipant,
        type = "b", xlab = "Days after booster vaccination", ylab = "Anti-spike IgG (BAU/ml)", 
@@ -208,7 +212,7 @@ xyplot(IgG ~ boost$time , data = data, groups = IdParticipant,
 
 
   <div class="row mt-3">
-        {% include figure.html path="assets/img/posts/longit_plots/spagetti.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/posts/longit_plots/spagettiPlot.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 <div class="caption">
     Individual anti-Spike IgG changes over time.
