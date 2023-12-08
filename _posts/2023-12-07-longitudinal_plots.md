@@ -4,8 +4,8 @@ title:  plotting longitudinal data in R
 date: 2023-12-07 21:01:00
 description: Repeated measurements visualization
 tags: longitudinal
-categories: sample-posts
-thumbnail: assets/img/posts/longit_plots/visiting.png
+categories: visualization
+thumbnail: assets/img/posts/longit_plots/R.png
 ---
 The following graphs produced upon simulated data of SARSSURV study's data and for presentation purposes.
 
