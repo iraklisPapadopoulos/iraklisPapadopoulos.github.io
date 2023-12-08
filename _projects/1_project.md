@@ -12,10 +12,10 @@ related_publications:
         {% include figure.html path="assets/img/sarssurv.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 
-SARSSURV protocole can be found [here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8795924/)
+SARSSURV protocole can be found [here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8795924/)  
 
-Abstract
-Introduction
+## Abstract
+### Introduction  
 For a safe and sustainable return to normal functioning of academic activities in higher education, objective-driven testing strategies that are flexible and rapidly adaptable are essential to effectively monitor and respond to new developments of the COVID-19 pandemic. To date, prospective longitudinal research on SARS-CoV-2 antibody testing in saliva and seroprevalence in higher education contexts is substantially lacking, limiting our understanding of COVID-19 prevalence, incidence and nature of the immune response to SARS-CoV-2 at various stages of the infection and vaccination. To address this lack of evidence, a prospective population-based cohort study (SARSSURV-ULiège) has recently been started.
 
 Methods and analysis
