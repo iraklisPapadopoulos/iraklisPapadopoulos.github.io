@@ -6,10 +6,13 @@ description: Repeated measurements visualization
 tags: longitudinal
 categories: visualization
 thumbnail: assets/img/posts/longit_plots/R.png
+toc:
+  beginning: true
 ---
 The following graphs produced upon simulated data of SARSSURV study's data and for presentation purposes.
 
-In the follo
+## BoxPlots
+
 ````markdown
 ```R
 bxp <- ggboxplot(boost, x = "vax_brand", y = "logigg",
@@ -61,29 +64,30 @@ bxp.complex <- bxp +
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/posts/longit_plots/bxp.complex2.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
-
-````markdown
-```R
-ggplot2
-```
-````
-    <div class="col-sm mt-3 mt-md-0">
+  <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/posts/longit_plots/bxp.complex.Nab.jpg" class="img-fluid rounded z-depth-1" zoomable=true%}
     </div>
 </div>
 <div class="caption">
-    A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all.
+    Visualizing by boxplots the anti-Spike IgG measurements by vaccine type and time period (left) and through time by vaccine type (right).
 </div>
 
-Images can be made zoomable.
-Simply add `data-zoomable` to `<img>` tags that you want to make zoomable.
+## Scatter plot
 
 <div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/posts/longit_plots/IgG_boost_vaccine_loess.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
+  
+<div class="caption">
+    Anti-Spike IgG through time by booster vaccination vaccine.
+</div>
+## Radar Plot
+  
+  <div class="row mt-3">
         {% include figure.html path="assets/img/posts/longit_plots/sdfg.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 
+<div class="caption">
+    Prevalence of symptoms on three time points.
+</div>
