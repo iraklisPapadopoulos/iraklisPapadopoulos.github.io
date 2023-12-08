@@ -10,6 +10,21 @@ toc:
   sidebar: left
 ---
 
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/ggplot2.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/dyplyr.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/tidyr.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/faux.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
 ## Introduction
 
 For the presentation purposes of this post, simulated data were produced from already existing data of SARSSURV study.
