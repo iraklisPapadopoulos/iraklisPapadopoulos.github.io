@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  plotting longitudinal data in R
+title:  Plotting Longitudinal Data in R
 date: 2023-12-07 21:01:00
 description: Repeated measurements visualization
 tags: longitudinal
