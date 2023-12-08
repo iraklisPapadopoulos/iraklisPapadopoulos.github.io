@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: SURSSURV study
 date: 2023-12-07 21:01:00
 description: ULiege SARS-CoV-2 cohort study
@@ -13,7 +13,7 @@ related_publications:
         {% include figure.html path="assets/img/sarssurv.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 
-SARSSURV protocole can be found [here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8795924/)  
+SARSSURV protocole can be found here: <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8795924/>  
 
 
 ## Abstract  
