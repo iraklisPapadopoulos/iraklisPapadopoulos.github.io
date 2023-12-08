@@ -21,6 +21,12 @@ ggplot2
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/posts/longit_plots/bxp.complex2.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
+
+````markdown
+```R
+ggplot2
+```
+````
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/posts/longit_plots/bxp.complex.Nab.jpg" class="img-fluid rounded z-depth-1" zoomable=true%}
     </div>
