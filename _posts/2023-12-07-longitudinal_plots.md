@@ -9,7 +9,7 @@ thumbnail: assets/img/posts/longit_plots/spa.png
 toc:
   sidebar: left
 ---
-
+![alt text](assets/img/posts/longit_plots/ggplot2.jpg "Logo Title Text 1")
 <div class="row mt-4">
     <div class="col-6 col-sm-3 mt-4 mt-md-0">
         {% include figure.html path="assets/img/posts/longit_plots/ggplot2.jpg" class="img-fluid rounded z-depth-1" style="max-width: 100px; max-height: 100px;"  %}
