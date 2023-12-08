@@ -9,9 +9,25 @@ thumbnail: assets/img/posts/longit_plots/R.png
 toc:
   sidebar: left
 ---
-The following graphs produced upon simulated data of SARSSURV study's data and for presentation purposes.
 
+## Introduction
+
+For the presentation purposes of this post, simulated data were produced from already existing data of SARSSURV study.
+```R
+library(ggplot2)
+library(ggradar)
+library(ggpubr)
+library(dplyr)
+library(tidyr)
+library(faux)
+
+data=sim_df(raw_data, 2000)
+```
 ## BoxPlots
+
+Boxplots are a valuable tool for presenting longitudinal data, allowing for effective visualization of changes over time and comparisons between groups. The graphical representation makes it easy to highlight trends over different time periods and showcase distinctions between various groups.
+
+Bellow there is a sample code to produce such boxplots:
 
 ````markdown
 ```R
@@ -74,6 +90,10 @@ bxp.complex <- bxp +
 
 ## Scatter plot
 
+One of the initial steps is to visualize the repeated measurements over time and graphically test for linear or non-linear trends. Such graphs play a crucial role in guiding you towards a modeling strategy afterward.
+
+Sample code bellow:
+
 ```R
 
 p<-ggplot(data, aes(x=timePoints, y=covidIgG,group=vax_brand,color=vax_brand)) + 
@@ -108,6 +128,9 @@ p=p +
 </div>
 ## Radar Plot
 
+A compelling method for visualizing multiple variables concurrently in a plot while minimizing noise is the radar plot. This type of plot effectively communicates both the absolute values and the temporal changes to the reader. It provides a clear representation of the magnitude of true values and their fluctuations over time.
+
+ Sample code for the radar plot bellow:
 ```R
 ggradar(data,
         grid.max = 75,
