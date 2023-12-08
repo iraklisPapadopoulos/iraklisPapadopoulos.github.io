@@ -23,25 +23,3 @@ Students (n=1396) and staff members (n=1143) of the University of Liège are fol
 
 Ethics and dissemination
 The study has received the approval from the University Hospital of Liège Ethics Committee (reference number 2021/96, dated 26 March 2021). Potential protocol amendments will be presented to the Research Ethics Committee. The findings of the present study will be presented at scientific conferences and the results published in peer-review publications. Weekly reports will be submitted to the risk assessment group and the risk management group against COVID-19 of the university to enable a timely public health action if necessary.
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-\begin{enumerate}[(a)]
-\item \textbf{\underline{Interpretation of Cox Model: Prognosis with Breast Cancer.}}
-\begin{enumerate}[(i)]
-\item Taking into account the following proportional hazards model
-\begin{align}
-\lambda(t|\mathbf{X})
- = \lambda_{0,X_{S}}(t)\exp\left\{-0.783X_{E}+0.007X_{A}\right\}.\nonumber
-\end{align}
-The estimated hazards for a woman with ER positive tumor and for a woman with ER
-negative tumor, holding all other values constant, are given by:
-\begin{align}
-\lambda(t|X_{E}=1,X_{A},X_{S}) &= \lambda_{0,X_{S}}(t)\exp\left\{-0.783+0.007X_{A}\right\} \nonumber \\
-\lambda(t|X_{E}=0,X_{A},X_{S}) &= \lambda_{0,X_{S}}(t)\exp\left\{0+0.007X_{A}\right\} 
-\nonumber
-\end{align}
-Therefore, the estimated hazard ratio for ER positive woman versus ER negative is given by:
-\begin{align}
-HR = \dfrac{\lambda(t|X_{E}=1,X_{A},X_{S})}{\lambda(t|X_{E}=0,X_{A},X_{S})}
-= \exp\{-0.783\} = 0.457 \nonumber 
-\end{align}
