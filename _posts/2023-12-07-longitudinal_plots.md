@@ -10,17 +10,17 @@ toc:
   sidebar: left
 ---
 
-<div class="row mt-3">
-    <div class="col-6 col-sm-3 mt-3 mt-md-0">
+<div class="row mt-4">
+    <div class="col-6 col-sm-3 mt-4 mt-md-0">
         {% include figure.html path="assets/img/ggplot2.png" class="img-fluid rounded z-depth-1" style="max-width: 100px; max-height: 100px;"  %}
     </div>
-    <div class="col-6 col-sm-3 mt-3 mt-md-0">
+    <div class="col-6 col-sm-3 mt-4 mt-md-0">
         {% include figure.html path="assets/img/dplyr.png" class="img-fluid rounded z-depth-1" style="max-width: 100px; max-height: 100px;"  %}
     </div>
-    <div class="col-6 col-sm-3 mt-3 mt-md-0">
+    <div class="col-6 col-sm-3 mt-4 mt-md-0">
         {% include figure.html path="assets/img/tidyr.png" class="img-fluid rounded z-depth-1" style="max-width: 100px; max-height: 100px;"  %}
     </div>
-    <div class="col-6 col-sm-3 mt-3 mt-md-0">
+    <div class="col-6 col-sm-3 mt-4 mt-md-0">
         {% include figure.html path="assets/img/faux.png" class="img-fluid rounded z-depth-1" style="max-width: 100px; max-height: 100px;"  %}
     </div>
 </div>
