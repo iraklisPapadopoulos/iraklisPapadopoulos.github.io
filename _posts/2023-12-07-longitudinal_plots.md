@@ -12,16 +12,16 @@ toc:
 
 <div class="row mt-4">
     <div class="col-6 col-sm-3 mt-4 mt-md-0">
-        {% include figure.html path="assets/img/ggplot2.jpg" class="img-fluid rounded z-depth-1" style="max-width: 100px; max-height: 100px;"  %}
+        {% include figure.html path="assets/img/posts/longit_plots/ggplot2.jpg" class="img-fluid rounded z-depth-1" style="max-width: 100px; max-height: 100px;"  %}
     </div>
     <div class="col-6 col-sm-3 mt-4 mt-md-0">
-        {% include figure.html path="assets/img/dplyr.jpg" class="img-fluid rounded z-depth-1" style="max-width: 100px; max-height: 100px;"  %}
+        {% include figure.html path="assets/img/posts/longit_plots/dplyr.jpg" class="img-fluid rounded z-depth-1" style="max-width: 100px; max-height: 100px;"  %}
     </div>
     <div class="col-6 col-sm-3 mt-4 mt-md-0">
-        {% include figure.html path="assets/img/tidyr.jpg" class="img-fluid rounded z-depth-1" style="max-width: 100px; max-height: 100px;"  %}
+        {% include figure.html path="assets/img/posts/longit_plots/tidyr.jpg" class="img-fluid rounded z-depth-1" style="max-width: 100px; max-height: 100px;"  %}
     </div>
     <div class="col-6 col-sm-3 mt-4 mt-md-0">
-        {% include figure.html path="assets/img/faux.jpg" class="img-fluid rounded z-depth-1" style="max-width: 100px; max-height: 100px;"  %}
+        {% include figure.html path="assets/img/posts/longit_plots/faux.jpg" class="img-fluid rounded z-depth-1" style="max-width: 100px; max-height: 100px;"  %}
     </div>
 </div>
 <div class="caption">
