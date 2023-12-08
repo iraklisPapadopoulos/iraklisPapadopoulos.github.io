@@ -10,6 +10,12 @@ thumbnail: assets/img/posts/longit_plots/R.png
 The following graphs produced upon simulated data of SARSSURV study's data and for presentation purposes.
 
 In the follo
+````markdown
+```R
+ggplot2
+```
+````
+
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
