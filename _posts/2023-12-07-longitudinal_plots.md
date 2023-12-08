@@ -103,8 +103,7 @@ p=p +
 <div class="row mt-3">
         {% include figure.html path="assets/img/posts/longit_plots/IgG_boost_vaccine_loess.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
-  
-<div class="caption">
+  <div class="caption">
     Anti-Spike IgG through time by booster vaccination vaccine.
 </div>
 ## Radar Plot
@@ -154,8 +153,6 @@ ggradar(data,
   <div class="row mt-3">
         {% include figure.html path="assets/img/posts/longit_plots/sdfg.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
-</div>
-
 <div class="caption">
     Prevalence of symptoms on three time points.
 </div>
