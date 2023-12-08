@@ -7,7 +7,7 @@ tags: longitudinal
 categories: visualization
 thumbnail: assets/img/posts/longit_plots/R.png
 toc:
-  beginning: true
+  sidebar: left
 ---
 The following graphs produced upon simulated data of SARSSURV study's data and for presentation purposes.
 
