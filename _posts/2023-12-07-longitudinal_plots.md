@@ -5,7 +5,7 @@ date: 2023-12-07 21:01:00
 description: Repeated measurements visualization
 tags: longitudinal
 categories: visualization
-thumbnail: assets/img/posts/longit_plots/R.png
+thumbnail: assets/img/posts/longit_plots/spa.png
 toc:
   sidebar: left
 ---
