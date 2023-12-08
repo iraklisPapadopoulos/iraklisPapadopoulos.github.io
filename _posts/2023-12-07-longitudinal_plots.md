@@ -15,7 +15,7 @@ The following graphs produced upon simulated data of SARSSURV study's data and f
 
 ````markdown
 ```R
-bxp <- ggboxplot(boost, x = "vax_brand", y = "logigg",
+bxp <- ggboxplot(data, x = "vax_brand", y = "logigg",
                  color = "vax_brand", palette = "jco",
                  #add = "jitter",
                  facet.by = "measur", 
@@ -29,7 +29,7 @@ bxp
 
 library(rstatix)
 
-stat.test <- boost %>%
+stat.test <- data %>%
   group_by(measur) %>%
   t_test(logigg ~ vax_brand) %>%
   adjust_pvalue(method = "bonferroni") %>%
@@ -74,6 +74,32 @@ bxp.complex <- bxp +
 
 ## Scatter plot
 
+```R
+
+p<-ggplot(data, aes(x=timePoints, y=covidIgG,group=vax_brand,color=vax_brand)) + 
+  geom_point(size = 1)+
+  xlab("Days since booster Vaccination")+
+  ylab("Anti-spike IgG (BAU/ml)")+
+  ggtitle("")+theme_classic(base_size = 12)+
+  geom_smooth(se = T, method = "lm")+  theme(legend.position="bottom")+
+  labs(color="Booster")+ scale_color_lancet()
+p=p+ theme(axis.text.x = element_text(angle = 0, vjust = 0.5, hjust=1))+ theme(legend.text = element_text(size = 8))
+p=p+scale_y_continuous(breaks = scales::pretty_breaks(n = 6))
+p=p + 
+  theme(plot.background = element_blank(),
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank() )+
+  theme(panel.border= element_blank())+
+  theme(axis.line.x = element_line(color="gray33", size = 0.7),
+        axis.title.y = element_text(size = 12),
+        axis.text.y = element_text(size = 12,color="gray33"),
+        axis.text.x = element_text(size = 12,color="gray33"),
+        axis.title.x = element_text(size = 12),
+        axis.line.y = element_line(color="gray33", size = 0.7),
+        strip.text.x = element_text(size=rel(2.5)))+
+  theme(text=element_text( family="Arial"))
+```
+
 <div class="row mt-3">
         {% include figure.html path="assets/img/posts/longit_plots/IgG_boost_vaccine_loess.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
@@ -82,7 +108,49 @@ bxp.complex <- bxp +
     Anti-Spike IgG through time by booster vaccination vaccine.
 </div>
 ## Radar Plot
-  
+
+```R
+ggradar(data,
+        grid.max = 75,
+        base.size = 6,
+        font.radar = "sans",
+        values.radar = c("0%", "35%", "75%"),
+        axis.labels = colnames(result)[-1],
+        grid.min = 0,
+        grid.mid = 35,
+        grid.line.width = 0.5,
+        plot.extent.x.sf=1.5,
+        plot.extent.y.sf=1.5,
+        
+        gridline.min.colour = "grey",
+        gridline.mid.colour = "#007A87",
+        gridline.max.colour = "grey",
+        grid.label.size = 4,
+        axis.label.offset = 1.15,
+        axis.label.size = 4,
+        axis.line.colour = "grey",
+        group.line.width = .7,
+        group.point.size = 1,
+        background.circle.transparency = 0.4,
+        background.circle.colour = "#5CB85C",
+        
+        group.colours = lcols,
+        legend.title = "Prevalence",
+        legend.position = "bottom",
+        plot.title = "",
+        legend.text.size = 12,
+        
+        fill = T,
+        fill.alpha = 0.2,
+        label.centre.y = 0,
+        
+        gridline.min.linetype = "longdash",
+        gridline.mid.linetype = "longdash",
+        gridline.max.linetype = "longdash"
+        
+        )
+```
+
   <div class="row mt-3">
         {% include figure.html path="assets/img/posts/longit_plots/sdfg.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
