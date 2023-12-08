@@ -24,7 +24,9 @@ toc:
         {% include figure.html path="assets/img/faux.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-
+<div class="caption">
+    Libraries for this post.
+</div>
 ## Introduction
 
 For the presentation purposes of this post, simulated data were produced from already existing data of SARSSURV study.
