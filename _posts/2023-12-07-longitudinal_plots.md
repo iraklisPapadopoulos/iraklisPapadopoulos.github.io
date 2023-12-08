@@ -46,7 +46,7 @@ Boxplots are a valuable tool for presenting longitudinal data, allowing for effe
 
 Bellow there is a sample code to produce such boxplots:
 
-````markdown
+
 ```R
 bxp <- ggboxplot(data, x = "vax_brand", y = "logigg",
                  color = "vax_brand", palette = "jco",
@@ -90,7 +90,7 @@ bxp.complex <- bxp +
   ) +
   theme_bw()
 ```
-````
+
 
 
 <div class="row mt-3">
@@ -195,4 +195,21 @@ ggradar(data,
     </div>
 <div class="caption">
     Prevalence of symptoms on three time points.
+</div>
+
+
+## Spaghetti Plot
+
+```R
+xyplot(IgG ~ boost$time , data = data, groups = IdParticipant,
+       type = "b", xlab = "Days after booster vaccination", ylab = "Anti-spike IgG (BAU/ml)", 
+       main = "")
+```
+
+
+  <div class="row mt-3">
+        {% include figure.html path="assets/img/posts/longit_plots/spagetti.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+<div class="caption">
+    Individual anti-Spike IgG changes over time.
 </div>
