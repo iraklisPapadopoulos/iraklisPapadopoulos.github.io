@@ -5,7 +5,7 @@ date: 2023-12-07 21:01:00
 description: Ideas for plotting repeated measurements
 tags: longitudinal
 categories: sample-posts
-thumbnail: assets/img/posts/longit_plots/vissiting.png
+thumbnail: assets/img/posts/longit_plots/visiting.png
 ---
 This is an example post with image galleries.
 
