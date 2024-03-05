@@ -12,4 +12,4 @@ nav_order: 5
 
 Click the link below to download the PDF file:
 
-[Download PDF](C/myWebsite/iraklisPapadopoulos.github.io/assets/pdf/thesis_presentation.pdf)
+[Download PDF](C:/myWebsite/iraklisPapadopoulos.github.io/assets/pdf/thesis_presentation.pdf)
