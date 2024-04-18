@@ -41,6 +41,8 @@ I am a Biostatistician currently working as a research assistant and consultant 
       
       <li>Missing Data Analysis</li>
       
+      <li>Network Analysis</li>
+      
     </ul>
   </div>
   
