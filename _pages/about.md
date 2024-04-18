@@ -25,3 +25,28 @@ social: true  # includes social icons at the bottom of the page
 
 Hi there! I'm Iraklis.  
 I am a Biostatistician currently working as a research assistant and consultant at B-STAT, the Biostatistics and Research Methods Center of ULiège's Public Health Department and CHU of Liège. I studied Mathematics at Aristotle University of Thessaloniki and graduated from the MSc program in Biostatistics at the National and Kapodistrian University of Athens. Currently, I'm involved in valorizing, analyzing, visualizing, modeling and interpreting data, results and objectives for the SARSSURV study at Liege University, and I am participating statistically in various medical projects at Liege University Hospital. Most of the time, you will find me coding in R Studio or behind a camera's viewfinder.
+
+
+    <div class="row">
+
+      
+      <div class="col-sm-5">
+        <h3>Interests</h3>
+        <ul class="ul-interests">
+          
+          <li>Survival and Competing risks analysis</li>
+          
+          <li>Prediction modeling and predictive accuracy</li>
+          
+          <li>Multiple testing</li>
+          
+          <li>Causal inference</li>
+          
+          <li>Group sequential and adaptive clinical trials</li>
+          
+          <li>Empirical likelihood</li>
+          
+          <li>Randomized clinical trials</li>
+          
+        </ul>
+      </div>
